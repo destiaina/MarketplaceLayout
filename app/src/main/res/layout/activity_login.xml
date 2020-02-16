@@ -20,6 +20,7 @@
             android:id="@+id/arrow_white"
             android:layout_width="28dp"
             android:layout_height="20dp"
+            android:onClick="back"
             android:layout_marginLeft="28dp"
             android:layout_marginTop="25dp"
             android:background="@drawable/left_arrow" />
@@ -81,6 +82,7 @@
             android:background="@drawable/btn_white_small"
             android:fontFamily="@font/futura_pt_demibold"
             android:text="Login"
+            android:onClick="Sudahlogin"
             android:textColor="#FF0000"
             android:textSize="18dp"
             app:layout_constraintBottom_toTopOf="@+id/button5"
@@ -99,6 +101,7 @@
             android:background="@drawable/btn_red_medium"
             android:fontFamily="@font/futura_pt_demibold"
             android:text="Register"
+            android:onClick="register"
             android:textColor="#FFFFFF"
             android:textSize="20dp"
             app:layout_constraintBottom_toTopOf="@+id/button5"
